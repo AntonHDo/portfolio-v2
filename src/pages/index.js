@@ -4,8 +4,11 @@ import { graphql } from "gatsby"
 import { intro } from "../components/intro"
 import { Navbar } from "../components/Navigation/navbar"
 import { Info } from "../components/Navigation/info"
-import { Email } from "../components/Navigation/email"
+import Email from "../components/Navigation/email"
+import Contact from "../components/contact"
 import About from "../components/about"
+import Footer from "../components/footer"
+import Intro from "../components/intro"
 
 
 export default function Home({ data }) {
@@ -55,7 +58,11 @@ export default function Home({ data }) {
     <div id="root">
       {/* <title>{data.site.siteMetaData.title}</title>
       < */}
+      <Email />
+      <Intro />
       <About />
+      <Contact />
+      <Footer />
     </div>
   )
 }

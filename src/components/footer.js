@@ -1,7 +1,11 @@
 import React from 'react'
 
-export const footer = () => {
+const Footer = () => {
   return (
-    <div>footer</div>
+    <footer>
+      <a className="external footer" target="_blank" href="https://github.com/AntonHDo/portfolio-v2">2020 - Designed and built by Anton Do</a>
+    </footer>
   )
 }
+
+export default Footer
