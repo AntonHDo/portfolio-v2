@@ -10,6 +10,7 @@
 module.exports = {
   plugins: [
     `gatsby-plugin-smoothscroll`,
-    `gatsby-plugin-scroll-reveal-with-new-react`
+    `gatsby-plugin-scroll-reveal-with-new-react`,
+    `gatsby-plugin-fontawesome-css`
   ],
 }

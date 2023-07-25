@@ -1,0 +1,25 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact>.header {
+  margin-bottom: 200px;
+}
+
+.email-button {
+  width: 75px;
+  text-decoration: none;
+  background: none;
+  border: 2px solid #376E6F;
+  border-radius: 10px;
+  padding: 20px 25px;
+  color: #D1E8E2;
+  transition: background-color 0.25s;
+}
+
+.email-button:hover {
+  background-color: #313131;
+}

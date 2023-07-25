@@ -1,0 +1,64 @@
+{
+  "skills": [
+    {
+      "name": "TypeScript",
+      "delay": "0"
+    },
+    {
+      "name": "Sass",
+      "delay": "50"
+    },
+    {
+      "name": "HTML",
+      "delay": "100"
+    },
+    {
+      "name": "Angular",
+      "delay": "150"
+    },
+    {
+      "name": "NgRx",
+      "delay": "200"
+    },
+    {
+      "name": "Jest",
+      "delay": "250"
+    },
+    {
+      "name": "RxJS",
+      "delay": "300"
+    },
+    {
+      "name": "GraphQL",
+      "delay": "350"
+    },
+    {
+      "name": "Node.js",
+      "delay": "400"
+    },
+    {
+      "name": "NestJS",
+      "delay": "450"
+    },
+    {
+      "name": "Git",
+      "delay": "500"
+    },
+    {
+      "name": "React",
+      "delay": "550"
+    },
+    {
+      "name": "Java",
+      "delay": "600"
+    },
+    {
+      "name": "MySQL",
+      "delay": "650"
+    },
+    {
+      "name": "Ruby on Rails",
+      "delay": "700"
+    }
+  ]
+}

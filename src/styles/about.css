@@ -1,0 +1,32 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px -8px 8px black;
+  margin: 0;
+}
+
+.adjust {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.amusement-blox {
+  text-align: center;
+}
+
+/* .adjust > *  {
+  margin-left: 33px;
+} */
+
+.my-game {
+  width: 475px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.my-picture {
+  margin-right: 75px;
+  width: 325px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}

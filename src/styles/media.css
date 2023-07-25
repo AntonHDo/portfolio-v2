@@ -1,0 +1,239 @@
+@media only screen and (max-width: 1655px) {
+
+  .my-game,
+  .my-picture {
+    margin-right: 50px;
+  }
+
+  .name,
+  i {
+    font-size: 26px;
+  }
+
+  .info-navbar i {
+    font-size: 36px;
+  }
+
+  .other-projects-list {
+    width: 80%;
+  }
+
+  .skills-list {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+}
+
+@media only screen and (max-width: 1343px) {
+
+  .name,
+  i {
+    font-size: 22px;
+  }
+
+  .info-navbar i {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .other-projects-list .description {
+    font-size: 18px;
+  }
+
+  .technology {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .skills-list {
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+
+  .contact-form {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .other-projects-list .description {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .skills-list {
+    width: 90%;
+    justify-items: center;
+    align-items: center;
+    row-gap: 20px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  }
+
+}
+
+@media only screen and (max-width: 920px) {
+
+  .my-game,
+  .my-picture {
+    margin: 0;
+  }
+
+  .name,
+  i {
+    font-size: 36px;
+  }
+
+  .other-project .name {
+    margin: 5px 0 15px 0
+  }
+
+  .my-game {
+    width: 90%;
+  }
+
+  .header {
+    width: 90%;
+  }
+
+  .adjust {
+    margin-left: 0;
+  }
+
+  .project,
+  .container {
+    flex-direction: column;
+  }
+
+  .title-and-links {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .icons-group {
+    margin: 15px 0;
+  }
+
+  .description {
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+  }
+
+  /* .project .description { font-size: 14px; } */
+  .container>.description {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .info,
+  .project-image {
+    width: 95%;
+  }
+
+  .other-projects-list {
+    width: 80%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+  }
+
+  .info {
+    margin-top: 35px;
+  }
+
+  .technologies {
+    justify-content: center;
+  }
+
+  .links,
+  .info-navbar,
+  .email-navbar {
+    display: none;
+  }
+
+  .fas.fa-bars {
+    display: inline;
+  }
+
+  .technology-image {
+    width: 75px;
+  }
+}
+
+@media only screen and (max-width: 595px) {
+  .skill {
+    width: 65%;
+    height: 65%;
+    justify-content: space-between;
+  }
+
+  .other-projects-list {
+    width: 70%;
+    grid-template-columns: 100%;
+    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+  }
+
+  .submit-email {
+    width: 20%;
+  }
+
+  .adjust {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .name,
+  i {
+    font-size: 22px;
+  }
+
+  i {
+    margin: 0 10px;
+  }
+
+  .description {
+    font-size: 16px;
+    width: 95%;
+  }
+
+  .other-projects-list {
+    width: 90%;
+  }
+
+  .other-project .name,
+  .other-project i {
+    font-size: 22px;
+  }
+
+  .other-project .description {
+    font-size: 18px;
+  }
+
+  .skills-list {
+    grid-template-columns: 100%;
+    grid-template-rows: 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66% 6.66%;
+  }
+
+  #skills {
+    min-height: 3400px;
+  }
+
+  #contact {
+    margin-top: 250px;
+  }
+}

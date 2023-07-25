@@ -1,0 +1,56 @@
+.info-navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 250px;
+  height: 65px;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.email-navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  height: 65px;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.info-navbar>.links {
+  justify-content: flex-start;
+}
+
+.external {
+  font-size: 24px;
+  margin-right: 15px;
+  text-decoration: none;
+  transition: color 0.25s;
+}
+
+.external.footer {
+  font-size: 16px;
+}
+
+.external:hover {
+  color: #376E6F;
+}
+
+.resume {
+  display: inline-block;
+  background-image: url("./../images/resume-icon-1.png");
+  background-size: cover;
+  width: 38px;
+  height: 42px;
+  margin-top: 2px;
+  margin-left: 8px;
+  transition: background-image 0.25s, transform 0.25s;
+}
+
+.resume:hover {
+  transform: translateY(-3px);
+  background-image: url("./../images/resume-icon-2.png");
+}

@@ -1,0 +1,65 @@
+{
+  "otherProjects": [
+    {
+      "name": "3-D Space Lander",
+      "description": "A 3-D game where you control a space lander in a moon-like environment. This game supports collision detection, physics and particle simulations, and camera functionalities. This game was my final project for my Computer Game Design class.",
+      "link": "https://github.com/VoChrisK/3D-Space-Lander",
+      "technologies": [
+        "C++",
+        "openFrameworks"
+      ],
+      "delay": "0"
+    },
+    {
+      "name": "SCKFlight",
+      "description": "A window-based, GUI app that allows users to create and manage airlines reservations. Me and my team used MySQL to define the database and JDBC to connect it to the Java app. This app was my team project for my Database Management Systems class.",
+      "link": "https://github.com/khoavo09/SCKFlight",
+      "technologies": [
+        "Java",
+        "MySQL",
+        "JDBC"
+      ],
+      "delay": "200"
+    },
+    {
+      "name": "Mancala Game",
+      "description": "A window-based, GUI app replicating the traditional Mancala game. This app follows the Object-oriented principles and two design patterns: MVC and Decorator pattern. This app was my team project for my Object Oriented Design class.",
+      "link": "https://github.com/VoChrisK/Mancala-Game",
+      "technologies": [
+        "Java",
+        "Swing",
+        "AWT"
+      ],
+      "delay": "400"
+    },
+    {
+      "name": "Maze Generator and Solver",
+      "description": "A project that randomly generates any square-sized maze and solves it subsequently. The maze generator is modeled using the graph data structure and the maze solver is modeled using respective search algorithms (BFS and DFS).",
+      "link": "https://github.com/VoChrisK/Maze-Generator-And-Solver",
+      "technologies": [
+        "Java",
+        "JUnit"
+      ],
+      "delay": "600"
+    },
+    {
+      "name": "Automobile Customization",
+      "description": "This project lets users customize and configure a car based on the make, model, and color and store it as an object. It incorporates sockets, in which multiple clients can connect to a server. This was my final project for my advanced Java programming class.",
+      "link": "https://github.com/VoChrisK/Automobile-Customization",
+      "technologies": [
+        "Java",
+        "Socket Programming"
+      ],
+      "delay": "800"
+    },
+    {
+      "name": "Stocks and Stuff",
+      "description": "A project that stores and manages stock data in a Binary Search Tree, Hash Table, and Max Heap. Each data structure is written from scratch using C++. This was a team project consisting of four members for my Intro to Data Structures class.",
+      "link": "https://github.com/VoChrisK/CIS-22C-Team-Project",
+      "technologies": [
+        "C++"
+      ],
+      "delay": "1000"
+    }
+  ]
+}

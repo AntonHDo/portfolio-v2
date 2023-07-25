@@ -2,14 +2,14 @@ import * as React from "react"
 import { useEffect } from "react"
 import { graphql } from "gatsby"
 import { intro } from "../components/intro"
-import { Navbar } from "../components/Navigation/navbar"
-import { Info } from "../components/Navigation/info"
+
 import Email from "../components/Navigation/email"
 import Contact from "../components/contact"
 import About from "../components/about"
 import Footer from "../components/footer"
 import Intro from "../components/intro"
-
+import Info from "../components/Navigation/info"
+import Navbar from "../components/Navigation/navbar"
 
 export default function Home({ data }) {
   // useEffect(() => {
@@ -58,6 +58,8 @@ export default function Home({ data }) {
     <div id="root">
       {/* <title>{data.site.siteMetaData.title}</title>
       < */}
+      <Navbar />
+      <Info />
       <Email />
       <Intro />
       <About />
