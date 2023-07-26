@@ -72,7 +72,6 @@ const Navbar = () => {
         <span onClick={setVisibility} className="fas fa-bars"></span>
       </CSSTransition>
 
-      {/* <i onClick={() => setVisibility(false, document.getElementsByClassName("fa-bars")[0], document.getElementsByClassName("fa-times")[0])} className="fas fa-times"></i> */}
 
       <CSSTransition in={visible} timeout={300} classNames="fade-left">
         <Sidebar />
