@@ -3,7 +3,7 @@ import * as mySkills from '../../data/skills.json'
 import { Skill } from './skill';
 import { skillIconPaths } from '../../data/paths'
 
-export const Skills = () => {
+const Skills = () => {
   return (
     <section id="skills" className="skills section">
       <h1 className="header" data-sal="slide-up" data-sal-easing="ease" data-sal-duration="1000">Skills</h1>
@@ -26,3 +26,5 @@ export const Skills = () => {
     </section>
   );
 };
+
+export default Skills

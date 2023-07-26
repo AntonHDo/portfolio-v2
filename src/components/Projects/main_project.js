@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const MainProject = ({ filepath, idx, project }) => {
+const MainProject = ({ filepath, idx, project }) => {
   const { name, description, links, technologies } = project
   const { live, github } = links
 
@@ -53,3 +53,5 @@ export const MainProject = ({ filepath, idx, project }) => {
     </div>
   )
 }
+
+export default MainProject
