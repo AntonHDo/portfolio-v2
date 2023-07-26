@@ -52,7 +52,7 @@ img {
   font-size: 22px;
   color: #376E6F;
   margin-right: 10px;
-  content: "0" counter(sectionCounter) ".";
+  /* content: "0" counter(sectionCounter) "."; */
 }
 
 .right {

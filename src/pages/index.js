@@ -8,9 +8,9 @@ import Footer from "../components/footer"
 import Intro from "../components/intro"
 import Info from "../components/Navigation/info"
 import Navbar from "../components/Navigation/navbar"
-import Skills from "../components/skills/skills"
-import MainProjects from '../components/Projects/main_projects'
-import OtherProjects from '../components/Projects/other_projects'
+import { Skills } from "../components/skills/skills"
+import { MainProjects } from "../components/Projects/main_projects"
+import { OtherProjects } from "../components/Projects/other_projects"
 
 const Home = ({ data }) => {
   useEffect(() => {
@@ -56,29 +56,29 @@ const Home = ({ data }) => {
 
   return (
     <div id="root">
-      {/* <title>{data.site.siteMetaData.title}</title> */}
+      <title>{data.site.siteMetadata.title}</title>
       <Navbar />
       <Info />
       <Email />
       <Intro />
       <About />
-      {/* <MainProjects />
+      <MainProjects />
       <OtherProjects />
-      <Skills /> */}
+      <Skills />
       <Contact />
       <Footer />
     </div>
   )
 }
 
-// export const pageQuery = graphql`
-// query {
-//   site {
-//     siteMetaData {
-//       title
-//     }
-//   }
-// }
-// `;
-
 export default Home
+
+export const pageQuery = graphql`
+query {
+  site {
+    siteMetadata {
+      title
+    }
+  }
+}
+`;

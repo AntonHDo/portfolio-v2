@@ -47,7 +47,7 @@
   font-size: 18px;
   color: #376E6F;
   margin-right: 10px;
-  content: "0" counter(listCounter) ".";
+  /* content: "0" counter(listCounter) "."; */
 }
 
 .cv-logo {

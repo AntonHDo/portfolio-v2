@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-const Skill = ({ name, filepath, delay }) => {
+export const Skill = ({ name, filepath, delay }) => {
   return (
     <div
       className="skill"
@@ -16,5 +16,3 @@ const Skill = ({ name, filepath, delay }) => {
     </div>
   )
 }
-
-export default Skill

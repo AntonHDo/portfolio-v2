@@ -1,6 +1,6 @@
 import React from 'react';
 
-const OtherProject = ({ project }) => {
+export const OtherProject = ({ project }) => {
   const { name, description, link, technologies, delay } = project
 
   return (
@@ -31,5 +31,3 @@ const OtherProject = ({ project }) => {
     </li>
   )
 }
-
-export default OtherProject
