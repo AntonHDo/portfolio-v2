@@ -19,6 +19,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-scroll-reveal-with-new-react`,
     `gatsby-plugin-smoothscroll`,
+    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
