@@ -56,7 +56,7 @@ const Home = ({ data }) => {
 
   return (
     <div id="root">
-      <title>{data.site.siteMetadata.title}</title>
+      {/* <title>{data.siteMetadata.title}</title> */}
       <Navbar />
       <Info />
       <Email />
@@ -73,13 +73,13 @@ const Home = ({ data }) => {
 
 export default Home
 
-export const pageQuery = graphql`
-query {
-  site {
-    siteMetadata {
-      title
-    }
-  }
-}
-`;
+// export const pageQuery = graphql`
+// query {
+//   site {
+//     siteMetadata {
+//       title
+//     }
+//   }
+// }
+// `;
 //
