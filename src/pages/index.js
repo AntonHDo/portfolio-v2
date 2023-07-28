@@ -1,6 +1,6 @@
 import React from "react"
 import { useEffect } from "react"
-import { graphql } from "gatsby"
+// import { graphql } from "gatsby"
 import Email from "../components/Navigation/email"
 import Contact from "../components/contact"
 import About from "../components/about"
